@@ -10,7 +10,6 @@ public class BrowserFactory {
 		static WebDriver driver;
 
 		public static WebDriver startBrowser(String url) {
-
 			System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.get(url);
